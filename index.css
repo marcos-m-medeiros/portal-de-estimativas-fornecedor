@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+header {
+    background: rgb(250, 178, 43);
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background: rgb(236, 235, 235);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+table#alter tr td { /*Cor de fundo de toda a tabela*/
+    background: rgb(236, 235, 235);
+}
+
+table#alter tr.dif td { /*Linhas da tabela com fundo laranja*/
+    background: rgb(250, 178, 43);
+}
+
+table th{ /*Cabeçalho*/
+    background-color: black;
+    color: white;
+}
