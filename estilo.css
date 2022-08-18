@@ -1,21 +1,23 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 header{
     background: rgb(252, 205, 50);
     display: flex;
     justify-content: space-between;
-    position: relative;
     height: 60px;
-    box-shadow: 1px 2px 7px 1px black;
+    box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.39);
+    margin-bottom: 70px;
 }
 
 header h1{
     color: black;
     font-size: 22pt;
     position: right;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 10px;
-    font-weight: 300;
+    font-weight: 350;
+    font-weight: bold;
 }
 
 header img{
@@ -25,44 +27,39 @@ header img{
 }
 
 body {
-    background: rgba(231, 231, 231, 0.993);
+    background: rgba(241, 241, 241, 0.993);
     margin: 0px;
 }
 
 p {
-    font-family: Roboto, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
 
 h1 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 
-.wl { /*Imagem perdeu e venceu*/
-    height: 5%;
-    width: 5%;
-    margin: none;
-}
-
 table {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center ;
-    margin: auto;
+    margin: 50px 50px 100px 50px;
     width: 92%;
-    box-shadow: 1px 2px 7px 1px black;
+    box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.589);
 }
 
 table#alter tr td { /*Cor de fundo de toda a tabela*/
-    background: rgba(231, 231, 231, 0.993);
+    background: rgba(241, 241, 241, 0.993);
+    padding: 10px;
 }
 
 table#alter tr.dif td { /*Linhas da tabela com fundo laranja*/
-    background: rgb(252, 205, 50);
+    background: rgb(255, 205, 39);
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
@@ -73,7 +70,8 @@ table th{ /*Cabeçalho*/
     border: 0.5px solid;
     border-color: black;
     border-width: thin;
-    padding: 5px;
+    padding: 10px;
+    font-size: 11pt;
 }
 
 footer {
@@ -99,6 +97,8 @@ input[type="submit"] {
     border: 0.5px solid;
     border-color: black;
     transition: 0.25s linear;
+    padding: 7px 7px;
+    border-radius: 9%;
 }
 
 input[type="submit"].botao:hover{ /*Muda a cor do botão submit quando o mouse é colocado por cima*/
